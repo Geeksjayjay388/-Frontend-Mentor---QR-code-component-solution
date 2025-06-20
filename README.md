@@ -19,10 +19,10 @@ This is a coding challenge of creating a QR code and some text beneath it and or
 ### Screenshot
 
 ![Desktop preview](./images/Screenshot%20from%202025-06-20%2008-13-36.png)
-<<<<<<< HEAD
+
 =======
 
->>>>>>> 6c0eaf6 (Pushing files to repo)
+
 
 ### Links
 
