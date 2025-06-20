@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 This is a coding challenge of creating a QR code and some text beneath it and organise them orderly in a container.
 ### Screenshot
 
-<img src="images/Screenshot from 2025-06-20 08-13-36.png">//follow the link
+![Desktop preview](./images/Screenshot%20from%202025-06-20%2008-13-36.png)
 
 ### Links
 
