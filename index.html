@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Frontend Mentor | QR Code Component</title>
+    <style>
+      body {
+        font-family: 'Outfit', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-slate-300 min-h-screen flex flex-col items-center justify-center">
+    <main class="flex-1 flex items-center justify-center w-full">
+      <section class="bg-white max-w-[320px] rounded-2xl p-4 shadow-xl text-center mx-4">
+        <!-- Blue Container with White QR -->
+        <div class="bg-blue-500 rounded-xl h-60 flex items-center justify-center">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?data=https://www.frontendmentor.io&size=160x160&color=ffffff&bgcolor=3b82f6"
+            alt="QR Code"
+            class="w-40 h-40"
+          />
+        </div>
+
+        <!-- Text Content -->
+        <div class="px-3 mt-5 mb-4">
+          <p class="text-[22px] font-bold text-slate-900 mb-2">
+            Improve your front-end<br />skills by building projects
+          </p>
+          <p class="text-[15px] text-slate-500 px-2 leading-relaxed">
+            Scan the QR code to visit Frontend<br />Mentor and take your coding skills<br />to the next level
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <section class="w-full text-center mt-6 mb-4 text-sm text-gray-600">
+      <footer>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="underline"
+          >Frontend Mentor</a
+        >.
+        Coded by <a href="#" class="underline">Jacob Sihul</a>.
+      </footer>
+    </section>
+  </body>
+</html>
